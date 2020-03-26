@@ -12,13 +12,13 @@ module.exports = function (app) {
             });
     })
 
-      app.get("/api/workouts/", function (req, res) {
-        db.Exercise.find({})
-            .then(function (Exercise) {
-                res.json(Exercise);
-            })
+//       app.get("/api/workouts/", function (req, res) {
+//         db.Exercise.find({})
+//             .then(function (Exercise) {
+//                 res.json(Exercise);
+//             })
             
-   });
+//    });
 //      app.put ("/api/workouts/:id", function (req,res){
 //         db.Exercise.update(req.body)
 
